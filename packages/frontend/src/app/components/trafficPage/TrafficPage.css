@@ -1,0 +1,40 @@
+.traffic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1740px;
+    gap: 24px;
+}
+.traffic__header {
+    display: flex;
+    gap: 930px;
+}
+.traffic__header-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #171725;
+}
+.traffic__header-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: transparent;
+    outline: transparent;
+}
+.traffic__header-btn-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #44444F;
+}

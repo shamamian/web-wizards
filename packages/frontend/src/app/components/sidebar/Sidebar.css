@@ -1,0 +1,29 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    max-width: 250px;
+    border-right: 1px solid #E2E2EA;
+    box-shadow: inset -1px 0px 0px #E2E2EA;
+    height: 100vh;
+}
+.sidebar__logo {
+    padding: 16px 159px 16px 20px;
+    border-bottom: 1px solid #E2E2EA;
+}
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 22px;
+}
+.sidebar__menu-link {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    text-decoration: none;
+    color: #171725;
+}
+.active {
+    color: #0062FF;
+}

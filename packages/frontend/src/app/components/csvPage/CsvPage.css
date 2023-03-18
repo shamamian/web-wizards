@@ -1,0 +1,47 @@
+.csv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    gap: 24px;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 1270px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.table__header {
+    position: relative;
+}
+.table__header-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.table__header-form {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #E2E2EA;
+    border-radius: 10px;
+    padding-left: 35px;
+}
+.table__main {
+    width: 100%;
+}
+.table__main-header {
+    background: #FAFAFA;
+}
+.table__main-body {
+    border-bottom: 1px solid black;
+}
+th {
+    padding: 16px 12px;
+}
+td {
+    border-bottom: 1px solid grey;
+    padding: 16px 12px;
+}
